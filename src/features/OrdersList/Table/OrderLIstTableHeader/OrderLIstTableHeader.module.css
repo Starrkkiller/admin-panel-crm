@@ -1,0 +1,6 @@
+.activeSorter {
+  background-color: rgba(0, 0, 0, 0.15) !important;
+}
+.flipped {
+  transform: rotateX(180deg);
+}

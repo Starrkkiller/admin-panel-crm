@@ -1,0 +1,30 @@
+._ {
+  width: 1rem;
+}
+
+.search {
+  fill: var(--main-elements-color);
+  stroke: var(--main-elements-color);
+}
+
+.x {
+  fill: var(--dim-elements-color);
+  stroke: var(--dim-elements-color);
+}
+
+.abort {
+  fill: rgba(
+    var(--canceled-color),
+    var(--canceled-color),
+    var(--canceled-color),
+    1
+  );
+  fill-opacity: 0.5;
+  stroke: rgba(
+    var(--canceled-color),
+    var(--canceled-color),
+    var(--canceled-color),
+    1
+  );
+  stroke-opacity: 0.5;
+}

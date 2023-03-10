@@ -1,0 +1,15 @@
+._ {
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+
+  gap: 0.25rem;
+
+  background-color: transparent;
+  border: none;
+
+  color: var(--additional-filter-background);
+  fill: var(--additional-filter-background);
+  stroke: var(--additional-filter-background);
+}

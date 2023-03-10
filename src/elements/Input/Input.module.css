@@ -1,0 +1,109 @@
+._ {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+  width: 100%;
+  font-size: 13px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 2rem;
+  padding: 0.5rem 0.25rem 0.5rem 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  background: var(--background-color);
+  border: 1px solid var(--main-elements-color);
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+}
+
+.label {
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+  line-height: 1rem;
+}
+
+.area {
+  width: 100%;
+  min-height: 100%;
+  padding: 0;
+  outline: none;
+  border: none;
+  background: none;
+  font-size: 13px;
+  font-family: "Ubuntu", sans-serif;
+  color: var(--font-color);
+}
+
+.area::placeholder {
+  color: var(--dim-elements-color);
+}
+
+.button {
+  width: 1.5rem;
+  height: 1.5rem;
+  min-width: 1.5rem;
+  min-height: 1.5rem;
+  padding: 0.25rem;
+  border-radius: 0;
+  box-sizing: border-box;
+  border: none;
+  background: none;
+  display: none;
+}
+
+.icon_x {
+  stroke: var(--dim-elements-color);
+}
+
+.icon_locked {
+  fill: var(--font-color);
+}
+
+.incorrect .wrapper {
+  border: 1px solid var(--warning-color);
+}
+
+.incorrect .button_reset {
+  display: inline;
+}
+
+.disabled .wrapper {
+  background-color: var(--dim-elements-color);
+}
+
+.disabled .button_locked {
+  display: inline;
+}
+
+.input:disabled {
+  color: var(--font-color);
+}
+
+.button_search {
+  display: inline;
+}
+
+.button-icon {
+  stroke: var(--main-elements-color);
+}
+
+.filled .button_reset {
+  display: inline;
+}
+
+.icon {
+  width: 1rem;
+  min-width: 1rem;
+  margin-right: 0.25rem;
+  stroke: var(--main-elements-color);
+  fill: var(--main-elements-color);
+}

@@ -1,0 +1,6 @@
+._ {
+  width: 100%;
+  min-height: 2.5rem;
+  background: var(--main-elements-color);
+  color: var(--additional-filter-background);
+}

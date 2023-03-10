@@ -1,0 +1,108 @@
+._ {
+  font-size: 13px;
+  background-color: var(--background-color);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  list-style: none;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.1),
+    0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.status {
+  width: 10rem;
+  height: 13rem;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.item {
+  width: calc(100% - 1rem);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-left: 1rem;
+}
+
+.item.item_checked {
+  color: var(--main-elements-color);
+}
+
+.page-number-choose {
+  background-color: var(--background-color);
+  width: 8rem;
+  height: 3.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+
+.delete-post {
+  width: 8rem;
+  height: 5rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.choose-theme {
+  width: 8rem;
+  height: 5rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.title {
+  width: 100%;
+}
+
+.dropdown__radio {
+  appearance: none;
+}
+
+.dropdown__radio_checked {
+  color: var(--main-elements-color);
+}
+
+.dropdown__radio:checked + .dropdown__item-text {
+  color: var(--main-elements-color);
+}
+
+.custom-checkbox__checkbox:checked ~ .dropdown__item-text {
+  color: var(--main-elements-color);
+}
+
+.custom-checkbox .dropdown__item-text {
+  position: absolute;
+  left: 1.5rem;
+}
+
+.dropdown__checkbox:checked ~ .dropdown__item-text {
+  color: var(--main-elements-color);
+}
+
+.trigger {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+
+  font-size: 13px;
+  background-color: var(--background-color);
+  border-radius: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+
+  list-style: none;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.1), 0px 4px 8px rgba(0, 0, 0, 0.1),
+    0px 2px 2px rgba(0, 0, 0, 0.1);
+}

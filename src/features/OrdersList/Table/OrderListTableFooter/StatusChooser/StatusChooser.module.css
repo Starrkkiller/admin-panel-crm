@@ -1,0 +1,61 @@
+._ {
+  padding: 0.25rem 0 0.25rem 0;
+  right: -0.25rem;
+  top: 2.25rem;
+  gap: 0;
+  width: 10rem;
+  height: 16rem;
+}
+
+.item {
+  padding-left: 1rem;
+  width: calc(100% - 1rem);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+  color: var(--font-color);
+}
+
+.radio {
+  display: none;
+}
+
+.radio:checked ~ .statusName {
+  color: var(--main-elements-color);
+}
+
+.radio:checked + .iconArea {
+  background-color: var(--background-color-blue);
+  border-color: var(--background-color-blue);
+}
+
+.icon {
+  position: absolute;
+  opacity: 0;
+  width: 0.5rem;
+  fill: var(--background-color-white);
+  top: 0.1rem;
+  left: 0.15rem;
+  transition: opacity 0.25s ease-in;
+}
+
+.iconArea:hover {
+  background-color: var(--background-color-day-light-blue);
+}
+.iconArea {
+  position: relative;
+  appearance: none;
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--background-color-white);
+  border: 0.125rem solid var(--background-color-day-light-blue);
+  box-sizing: border-box;
+  border-radius: 5rem;
+  outline: 0.0625rem var(--background-color-light-blue);
+}
+
+.radio:checked + .iconArea > .icon {
+  opacity: 1;
+}

@@ -1,0 +1,8 @@
+._ {
+  height: 2.5rem;
+  width: calc(100% - 1rem);
+  min-height: 2.5rem;
+  padding: 0 0.5rem 0 0.5rem;
+  display: flex;
+  align-items: center;
+}

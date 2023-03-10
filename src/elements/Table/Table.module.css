@@ -1,0 +1,7 @@
+._ {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  overflow: hidden;
+}

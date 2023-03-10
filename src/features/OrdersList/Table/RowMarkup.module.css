@@ -1,0 +1,36 @@
+.checkbox {
+  width: 2.15%;
+  padding-left: 0.5rem;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.index {
+  width: 7.25%;
+  padding-left: 0.5rem;
+}
+
+.date {
+  width: 11.85%;
+  padding-left: 0.5rem;
+}
+
+.status {
+  width: 11.85%;
+  padding-left: 0.5rem;
+}
+
+.numberOfPositions {
+  width: 6.45%;
+  padding-left: 0.5rem;
+}
+
+.sum {
+  width: 8.6%;
+  padding-left: 0.5rem;
+}
+
+.name {
+  width: 51.85%;
+  padding-left: 0.5rem;
+}
